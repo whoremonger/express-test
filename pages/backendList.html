@@ -1,0 +1,30 @@
+<h1>Backend step guide</h1>
+
+<ol>
+  <li>Create project folder</li>
+  <li>npm init to create node package.json file to list and keep track of installs and dependencies</li>
+  <li>install express a backend framework</li>
+  <li>create a server or index js file to run the dev server</li>
+  <li>Create a .env file for to store environment variables for security. Use "process.env" to access it.</li>
+  <li>Create a pages folder to store webpages and set the folder to a static folder for access</li>
+  <li>create any homepage or css files and link it as well as bootstrap and such</li>
+  <li>Install a template engine like EJS, handlebars, or pug</li>
+  <li>create a router folder/file for complex sites</li>
+  <li>create any models or data for prototyping (like users: name, email, etc)</li>
+  <li>Install moment() for formatting dates</li>
+  <li>Start to create api and use postman to test routes, data, and CRUD</li>
+  <li>CRUD: Read(get), Create(post), Update(Put), Delete(destroy)</li>
+  <li>Get req all is get '/route/item'</li>
+  <li>Get req for single item is get '/route/:id'</li>
+  <li>create middleware for req and res functions</li>
+  <li>Common server error codes: 400 bad request, 401 unauthorized, 403, forbidden, 404 not found, 500 internal server error, 502 
+    bad gateway, 503 service unavailable, 504 gateway timeout, 200 OK, 201 created,  202 accepted, 204 no content, 301 moved permanently,
+  304 not modified </li>
+  <li>use res.status() for validating codes</li>
+  <li>use req.body for form fields/json data and req.params for url value like id</li>
+  <li>Start to validate user data / or using try catch to catch any errors</li>
+  <li>Use Postman app to test routes, data, and error codes</li>
+  <li>Link express with a database and set connection strings</li>
+  <li>create/validate any JWT tokens for security.</li>
+  <li>register user and session APIs for a User for a login/logout session</li>
+</ol>
